@@ -246,7 +246,30 @@ export const pricing = [
   },
 ];
 
-export const additionalServices = [
+type AdditionalService = {
+  name: string;
+  price: string;
+  eyebrow?: string;
+  description?: string;
+  items?: string[];
+};
+
+export const additionalServices: AdditionalService[] = [
+  {
+    name: "Мини-сайт / сайт-визитка",
+    price: "10 000–15 000 ₽",
+    eyebrow: "Дополнительно к Avito-продвижению",
+    description:
+      "Одностраничный сайт для упаковки бизнеса, презентации услуг и сбора заявок из Avito, Telegram, WhatsApp или рекламы.",
+    items: [
+      "Структура под услугу или нишу клиента",
+      "Адаптив под телефон и компьютер",
+      "Кнопки Telegram / WhatsApp / звонок",
+      "Блоки: услуги, преимущества, кейсы/примеры, контакты",
+      "Дизайн в стиле бизнеса клиента",
+      "Подходит как дополнение к Avito-продвижению",
+    ],
+  },
   {
     name: "Сбор таблицы автозагрузки до 1000 строк",
     price: "2 490 ₽",
