@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Продвижение бизнеса на Avito под ключ",
-  description:
-    "Системное продвижение бизнеса на Avito: объявления, аналитика, SEO, креативы, стратегия и работа с заявками.",
+  title: "Open Gate Agency | Digital Marketing",
+  description: "Ведение и продвижение бизнес-аккаунтов Avito",
 };
 
 export default function RootLayout({

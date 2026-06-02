@@ -22,20 +22,18 @@ export function BrandLogo({ compact = false, inverted = false }: BrandLogoProps)
           rx="23"
           fill={inverted ? "#ffffff" : "#111111"}
         />
-        <path
-          d="M15 14V34H27"
-          fill="none"
-          stroke={inverted ? "#111111" : "#ffffff"}
-          strokeLinecap="square"
-          strokeWidth="3"
-        />
-        <path
-          d="M33 15H25C22.7 15 21.2 16.3 21.2 18.2C21.2 20.4 23.1 21.2 26.8 21.9C31.1 22.8 33.7 24.4 33.7 28.1C33.7 31.7 30.8 34 26.4 34H19.5"
-          fill="none"
-          stroke={inverted ? "#111111" : "#ffffff"}
-          strokeLinecap="square"
-          strokeWidth="3"
-        />
+        <text
+          x="24"
+          y="24.5"
+          dominantBaseline="middle"
+          fill={inverted ? "#111111" : "#ffffff"}
+          fontFamily="Inter, ui-sans-serif, system-ui, sans-serif"
+          fontSize="15"
+          fontWeight="700"
+          textAnchor="middle"
+        >
+          {brand.monogram}
+        </text>
       </svg>
 
       <div className={compact ? "leading-tight" : "leading-tight"}>

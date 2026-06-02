@@ -19,8 +19,8 @@ type SimpleCase = {
 export type LandingCase = BeforeAfterCase | SimpleCase;
 
 export const brand = {
-  monogram: "LS",
-  name: "Union Spark Agency",
+  monogram: "OG",
+  name: "Open Gate Agency",
   descriptor: "Digital Marketing",
   serviceLine: "Ведение бизнес-аккаунтов Avito",
 };
