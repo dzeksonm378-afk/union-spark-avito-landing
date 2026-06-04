@@ -9,7 +9,7 @@ export function Pricing() {
         <SectionTitle
           eyebrow="Тарифы"
           title="Три формата ведения Avito"
-          description="START для теста спроса, OPTIMUM для активного роста, PRO для широкого ассортимента и амбициозных целей."
+          description="МИНИМАЛЬНЫЙ для тестового запуска, СРЕДНИЙ для системного ведения, PRO пакет для масштабирования и сложных ниш."
         />
 
         <div className="mt-12 grid gap-5 lg:grid-cols-3">

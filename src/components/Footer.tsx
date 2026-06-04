@@ -9,7 +9,10 @@ export function Footer() {
           <BrandLogo compact />
           <p className="mt-4 text-sm font-semibold text-ink">{brand.serviceLine}</p>
           <p className="mt-2 text-sm text-graphite">
-            Telegram: {contacts.telegramHandle} · Телефон / WhatsApp: {contacts.phoneDisplay}
+            {contacts.contactName} · Telegram: {contacts.telegramHandle}
+          </p>
+          <p className="mt-1 text-sm text-graphite">
+            Телефоны: {contacts.phoneDisplay} · {contacts.secondaryPhoneDisplay}
           </p>
         </div>
         <nav className="flex flex-wrap gap-4 text-sm text-graphite" aria-label="Навигация в подвале">

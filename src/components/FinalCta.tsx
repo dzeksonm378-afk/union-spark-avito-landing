@@ -35,8 +35,10 @@ export function FinalCta() {
                   </a>
                 </div>
                 <div className="mt-5 border-t border-line pt-5 text-sm leading-7 text-graphite">
+                  <p>Контактное лицо: {contacts.contactName}</p>
                   <p>Telegram: {contacts.telegramHandle}</p>
-                  <p>Телефон / WhatsApp: {contacts.phoneDisplay}</p>
+                  <p>Основной телефон / WhatsApp: {contacts.phoneDisplay}</p>
+                  <p>Второй телефон: {contacts.secondaryPhoneDisplay}</p>
                 </div>
               </div>
             </Reveal>
