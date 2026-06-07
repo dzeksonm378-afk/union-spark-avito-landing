@@ -9,7 +9,7 @@ export function Pricing() {
         <SectionTitle
           eyebrow="Тарифы"
           title="Три формата ведения Avito"
-          description="МИНИМАЛЬНЫЙ для тестового запуска, СРЕДНИЙ для системного ведения, PRO пакет для масштабирования и сложных ниш."
+          description="Старт для проверки гипотезы, Бизнес для системного роста, PRO для крупных проектов и сложных ниш."
         />
 
         <div className="mt-12 grid gap-5 lg:grid-cols-3">
@@ -25,6 +25,7 @@ export function Pricing() {
                     <h3 className="text-3xl font-semibold text-ink">{tariff.name}</h3>
                     {tariff.badge ? <span className="pill border-ink">{tariff.badge}</span> : null}
                   </div>
+                  <p className="mt-3 text-sm leading-6 text-graphite">{tariff.subtitle}</p>
                   <p className="mt-6 text-4xl font-semibold text-ink">{tariff.price}</p>
                   <p className="mt-4 min-h-16 text-sm leading-6 text-graphite">{tariff.audience}</p>
                 </div>
