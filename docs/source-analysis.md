@@ -151,8 +151,7 @@
 
 - контактное лицо: Aleksandr Darenskii;
 - Telegram: `@dvertt`;
-- основной телефон / WhatsApp: `+7 (995) 045-67-57`;
-- второй телефон: `+7 (917) 115-69-61`.
+- телефон / WhatsApp: `+7 (999) 006-60-70`.
 
 ## Visual Style from Commercial Proposal
 

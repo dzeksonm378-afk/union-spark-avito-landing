@@ -29,11 +29,9 @@ export const contacts = {
   contactName: "Aleksandr Darenskii",
   telegramHandle: "@dvertt",
   telegramUrl: "https://t.me/dvertt",
-  whatsappUrl: "https://wa.me/79950456757",
-  phoneDisplay: "+7 (995) 045-67-57",
-  phoneHref: "tel:+79950456757",
-  secondaryPhoneDisplay: "+7 (917) 115-69-61",
-  secondaryPhoneHref: "tel:+79171156961",
+  whatsappUrl: "https://wa.me/79990066070",
+  phoneDisplay: "+7 (999) 006-60-70",
+  phoneHref: "tel:+79990066070",
 };
 
 export const navigation = [

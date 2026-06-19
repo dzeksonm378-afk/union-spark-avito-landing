@@ -12,7 +12,7 @@ export function Footer() {
             {contacts.contactName} · Telegram: {contacts.telegramHandle}
           </p>
           <p className="mt-1 text-sm text-graphite">
-            Телефоны: {contacts.phoneDisplay} · {contacts.secondaryPhoneDisplay}
+            Телефон / WhatsApp: {contacts.phoneDisplay}
           </p>
         </div>
         <nav className="flex flex-wrap gap-4 text-sm text-graphite" aria-label="Навигация в подвале">
