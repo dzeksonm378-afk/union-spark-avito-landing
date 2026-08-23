@@ -27,9 +27,8 @@ export const brand = {
 
 export const contacts = {
   contactName: "Aleksandr Darenskii",
-  telegramHandle: "@dvertt",
-  telegramUrl: "https://t.me/dvertt",
-  whatsappUrl: "https://wa.me/79990066070",
+  telegramHandle: "@dvertton",
+  telegramUrl: "https://t.me/dvertton",
   phoneDisplay: "+7 (999) 006-60-70",
   phoneHref: "tel:+79990066070",
 };
@@ -248,11 +247,11 @@ export const additionalServices: AdditionalService[] = [
     price: "10 000–15 000 ₽",
     eyebrow: "Дополнительно к Avito-продвижению",
     description:
-      "Одностраничный сайт для упаковки бизнеса, презентации услуг и сбора заявок из Avito, Telegram, WhatsApp или рекламы.",
+      "Одностраничный сайт для упаковки бизнеса, презентации услуг и сбора заявок из Avito, Telegram, рекламы или других каналов.",
     items: [
       "Структура под услугу или нишу клиента",
       "Адаптив под телефон и компьютер",
-      "Кнопки Telegram / WhatsApp / звонок",
+      "Кнопки Telegram / звонок",
       "Блоки: услуги, преимущества, кейсы/примеры, контакты",
       "Дизайн в стиле бизнеса клиента",
       "Подходит как дополнение к Avito-продвижению",

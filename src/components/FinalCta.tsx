@@ -17,7 +17,7 @@ export function FinalCta() {
                 Соберем систему продвижения на Avito под ваш бизнес
               </h2>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-graphite">
-                Напишите в Telegram или WhatsApp, чтобы обсудить нишу, бюджет и подходящий тариф.
+                Напишите в Telegram или позвоните, чтобы обсудить нишу, бюджет и подходящий тариф.
               </p>
             </div>
 
@@ -27,9 +27,6 @@ export function FinalCta() {
                   <a className="button-primary w-full" href={contacts.telegramUrl} target="_blank" rel="noreferrer">
                     Написать в Telegram
                   </a>
-                  <a className="button-secondary w-full" href={contacts.whatsappUrl} target="_blank" rel="noreferrer">
-                    Написать в WhatsApp
-                  </a>
                   <a className="button-secondary w-full" href={contacts.phoneHref}>
                     Позвонить
                   </a>
@@ -37,7 +34,7 @@ export function FinalCta() {
                 <div className="mt-5 border-t border-line pt-5 text-sm leading-7 text-graphite">
                   <p>Контактное лицо: {contacts.contactName}</p>
                   <p>Telegram: {contacts.telegramHandle}</p>
-                  <p>Телефон / WhatsApp: {contacts.phoneDisplay}</p>
+                  <p>Телефон: {contacts.phoneDisplay}</p>
                 </div>
               </div>
             </Reveal>

@@ -150,8 +150,8 @@
 ## Контакты
 
 - контактное лицо: Aleksandr Darenskii;
-- Telegram: `@dvertt`;
-- телефон / WhatsApp: `+7 (999) 006-60-70`.
+- Telegram: [@dvertton](https://t.me/dvertton);
+- телефон: `+7 (999) 006-60-70`.
 
 ## Visual Style from Commercial Proposal
 
@@ -188,7 +188,7 @@
 7. Other niches: показать дополнительные ниши отдельным акцентным блоком.
 8. Pricing: сделать строгие карточки Старт, Бизнес и PRO с ценами и составом.
 9. Additional services: оформить как таблицу или компактные карточки.
-10. Final CTA: завершить блоком контактов Telegram, WhatsApp и телефона.
+10. Final CTA: завершить блоком контактов Telegram и телефона.
 
 ## Risky wording and safe replacements
 
